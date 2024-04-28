@@ -2,7 +2,7 @@ also grab & paste to your cmd prompt:
 
 ### non-developer
 ```
-echo "show ALL hidden files"
+echo "show hidden files"
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /t REG_DWORD /v Hidden /d 1 /f
 echo "show file extensions"
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /t REG_DWORD /v HideFileExt /d 0 /f
